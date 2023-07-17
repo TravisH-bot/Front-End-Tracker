@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Challenges from "./pages/Challenges";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Challenges from "./pages/challenges/Challenges";
 
 const App = () => {
   return (
