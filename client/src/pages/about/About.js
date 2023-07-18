@@ -1,9 +1,13 @@
+import "./About.styles.css";
+
 const About = () => {
   return (
-    <>
-      <h1>About Page</h1>
-      <p>Section to come about me and the project</p>
-    </>
+    <div className="main-container">
+      <div className="page-content">
+        <h1>About Page</h1>
+        <p>Section to come about me and the project</p>
+      </div>
+    </div>
   );
 };
 
